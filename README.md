@@ -31,3 +31,22 @@
    cd pgedgecli
    make build
 
+## Usage
+
+$ ./pgedgecli 
+pgEdgeCLI is a command-line tool to manage pgEdge's PostgreSQL cluster
+  ```bash
+   Usage:
+      pgedgecli [command]
+
+    Available Commands:
+      cluster     Manage PostgreSQL clusters
+      help        Help about any command
+      spock       Manage Spock replication
+      version     Print the version number of pgedgecli
+
+  Flags:
+      -h, --help   help for pgedgecli
+
+      Use "pgedgecli [command] --help" for more information about a command.
+  ```
